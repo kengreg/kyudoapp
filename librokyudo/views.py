@@ -6,6 +6,8 @@ from librokyudo.models import Persona #
 # aqui se usan metodos son "acciones" que igualmente se pueden usar con las classes en el modulo
 #metodos se escriben todo en minuscula y con underscore 
 #todas las vistas (htmls) deben ponerse en una carpeta que vas a crear manualmente llamada "templates"
+def home(request):
+    return render(request,"index.html")
 def login(request):
     # crear una variable cliente = Persona(esto es el modelo que creaste 
     cliente = Persona.objects.filter(id=1).first()
