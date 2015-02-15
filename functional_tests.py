@@ -3,6 +3,7 @@ Created on Feb 1, 2015
 @author: kengreg
 '''
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 import unittest
 #browser = webdriver.Chrome()
 #browser.get('http://localhost:8000')
