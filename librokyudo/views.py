@@ -23,4 +23,4 @@ from django.http import HttpResponse
 #como usar html , template con django
 
 def home_page(request):
-    return HttpResponse('<html><title>Making my own website testing page</title></html>')
+    return render(request, 'index.html')
