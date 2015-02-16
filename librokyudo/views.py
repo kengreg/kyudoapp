@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 #from librokyudo.models import Persona #
 
 # Create your views here.
@@ -21,5 +22,5 @@ from django.shortcuts import render
 #expresiones regulares leer
 #como usar html , template con django
 
-def home_page():
-    pass
+def home_page(request):
+    return HttpResponse('<html><title>Making my own website testing page</title></html>')
