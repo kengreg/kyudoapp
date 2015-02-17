@@ -9,5 +9,5 @@ urlpatterns = patterns('',
     #url(r'^admin/', include(admin.site.urls)),
     #url(r'^$', 'librokyudo.views.login'),
     #url(r'^hola/(?P<personaid>\d+)$', 'librokyudo.views.saludos'),#P = parametro \d = cualquier digito + = 1 o mas
-    url(r'^$', 'librokyudo.views.home_page', name='name'),
+    url(r'^$', 'librokyudo.views.home_page', name='home_page'),
 )
